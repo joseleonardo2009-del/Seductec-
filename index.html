@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEDUCTEC — Curso Técnico em Desenvolvimento de Sistemas | SEDUC Piauí</title>
+<meta name="description" content="Conheça o Curso Técnico em Desenvolvimento de Sistemas da SEDUCTEC (SEDUC Piauí): componentes curriculares, áreas de aprendizagem e acesso à plataforma.">
+<meta name="theme-color" content="#0b2a6b">
+<meta property="og:title" content="SEDUCTEC — Desenvolvimento de Sistemas">
+<meta property="og:description" content="Transforme ideias em tecnologia. Construa seu futuro!">
+<!-- Favicon substituível: troque o arquivo em images/icones/favicon.svg -->
+<link rel="icon" href="images/icones/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script>/* aplica o tema salvo antes da renderização (evita "flash") */
+try{var t=localStorage.getItem('sdt-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- ============ BARRA DE ACESSIBILIDADE ============ -->
+<div class="a11y" role="region" aria-label="Barra de acessibilidade">
+  <div class="wrap a11y-in">
+    <div class="a11y-g" role="group" aria-label="Tamanho da fonte">
+      <button data-font="-1" aria-label="Diminuir fonte">A-</button>
+      <button data-font="0" aria-label="Fonte padrão">A</button>
+      <button data-font="1" aria-label="Aumentar fonte">A+</button>
+    </div>
+    <div class="a11y-g" role="group" aria-label="Contraste">
+      <button data-contrast="normal" aria-pressed="true">Contraste normal</button>
+      <button data-contrast="alt" aria-pressed="false">Alternativo</button>
+      <button data-contrast="high" aria-pressed="false">Alto contraste</button>
+    </div>
+    <button class="a11y-reset" id="a11yReset">↺ Restaurar</button>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a href="#inicio" class="brand" aria-label="SEDUCTEC — início">
+      <img src="images/logo/logoPiaui.png" alt="Governo do Piauí — SEDUC" width="44" height="44" onerror="this.style.display='none'">
+      <span><strong>SEDUCTEC</strong><small>SEDUC Piauí</small></span>
+    </a>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <button class="menu-x" id="menuX" aria-label="Fechar menu">✕</button>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre o curso</a>
+      <a href="#componentes">Componentes curriculares</a>
+      <a href="#areas">Aprendizado</a>
+      <a href="#plataforma">Plataforma</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn-sm" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener">Acessar plataforma</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Alternar modo claro/escuro">
+      <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>
+    </button>
+    <button class="icon-btn burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+
+<main id="conteudo">
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="wrap hero-in">
+    <p class="chip reveal">Curso Técnico em Desenvolvimento de Sistemas</p>
+    <h1 class="reveal">SEDUCTEC</h1>
+    <h2 class="reveal">Aprenda a transformar problemas em sistemas.</h2>
+    <p class="lead reveal">Uma formação prática em programação, aplicações web e móveis, infraestrutura e experiência do usuário — conectada às demandas da tecnologia.</p>
+    <div class="cta reveal">
+      <a class="btn" href="#sobre">Conhecer o curso</a>
+      <a class="btn btn-ghost" href="#componentes">Explorar componentes</a>
+      <a class="btn btn-gold" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener">Acessar a plataforma</a>
+    </div>
+    <dl class="highlights reveal">
+      <div><dt>10</dt><dd>componentes curriculares</dd></div>
+      <div><dt>6</dt><dd>áreas de aprendizagem</dd></div>
+      <div><dt>100%</dt><dd>ambiente digital</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="sec" id="sobre">
+  <div class="wrap">
+    <header class="sec-h reveal">
+      <p class="kicker">Sobre o curso</p>
+      <h2>O futuro é desenvolvido por quem aprende tecnologia.</h2>
+      <p>Do raciocínio lógico à entrega de uma aplicação: a formação reúne código, projeto, arquitetura e colaboração em uma trajetória de aprendizagem contínua.</p>
+    </header>
+    <div class="grid g4">
+      <article class="card feat reveal"><span class="ico">01</span><h3>Fundamentos</h3><p>Lógica, estruturas e organização de código.</p></article>
+      <article class="card feat reveal"><span class="ico">02</span><h3>Construção</h3><p>Web, dispositivos móveis e aplicações completas.</p></article>
+      <article class="card feat reveal"><span class="ico">03</span><h3>Operação</h3><p>Arquitetura, manutenção e cultura DevOps.</p></article>
+      <article class="card feat reveal"><span class="ico">04</span><h3>Experiência</h3><p>Interfaces, interação humano-computador e inovação.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BANNER IA ============ -->
+<section class="sec sec-alt" id="ia">
+  <div class="wrap">
+    <a class="ia reveal" href="https://lp.startse.com/ia-para-todos/?utm_source=junior-achievement&utm_medium=ja&utm_campaign=ia-para-todos-ja" target="_blank" rel="noopener" aria-label="Abrir campanha IA para Todos (StartSe) em nova aba">
+      <img src="images/banners/banner_ia.png" alt="Banner da campanha IA para Todos, StartSe e Junior Achievement" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()">
+      <div class="ia-ph">
+        <span class="chip">IA para Todos · StartSe · Junior Achievement</span>
+        <h2>Inteligência Artificial e o futuro da tecnologia</h2>
+        <p>Conheça a campanha em destaque na plataforma. <b>Saiba mais</b></p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ============ COMPONENTES ============ -->
+<section class="sec" id="componentes">
+  <div class="wrap">
+    <header class="sec-h reveal">
+      <p class="kicker">Componente Curricular</p>
+      <h2>Conheça os componentes curriculares</h2>
+      <p>Explore os conteúdos que fazem parte da experiência de aprendizagem em Desenvolvimento de Sistemas.</p>
+    </header>
+    <div class="tools reveal">
+      <label class="search"><span class="sr">Buscar componente</span>
+        <input type="search" id="busca" placeholder="Buscar por nome do componente..." autocomplete="off"></label>
+      <div class="filters" id="filtros" role="group" aria-label="Filtrar por área"></div>
+    </div>
+    <p class="count" id="contagem" aria-live="polite"></p>
+    <div class="grid g4" id="cards"></div>
+    <p class="empty" id="vazio" hidden>Nenhum componente encontrado. <button class="link" id="verTodos">Ver todos os componentes</button></p>
+  </div>
+</section>
+
+<!-- ============ ÁREAS ============ -->
+<section class="sec sec-alt" id="areas">
+  <div class="wrap">
+    <header class="sec-h reveal">
+      <p class="kicker">Áreas de aprendizagem</p>
+      <h2>Como os conteúdos se conectam</h2>
+      <p><em>Atenção: estas são categorias de organização deste portal, não uma divisão oficial do currículo.</em></p>
+    </header>
+    <div class="grid g3" id="areasGrid"></div>
+  </div>
+</section>
+
+<!-- ============ PLATAFORMA ============ -->
+<section class="sec" id="plataforma">
+  <div class="wrap">
+    <header class="sec-h reveal">
+      <p class="kicker">Ambiente de aprendizagem</p>
+      <h2>Acesse a plataforma SEDUCTEC</h2>
+      <p>A plataforma é o ambiente utilizado para acessar os componentes curriculares e acompanhar as atividades de aprendizagem.</p>
+      <a class="btn btn-lg" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener">Acessar ambiente de aprendizagem ↗</a>
+    </header>
+    <div class="grid g5">
+      <a class="card plat reveal" href="https://seductec.seduc.pi.gov.br/my/" target="_blank" rel="noopener"><span class="ico">01</span><h3>Painel do estudante</h3><p>Visão geral das suas atividades.</p></a>
+      <a class="card plat reveal" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener"><span class="ico">02</span><h3>Componentes curriculares</h3><p>Acesso a todos os componentes.</p></a>
+      <a class="card plat reveal" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener"><span class="ico">03</span><h3>Acompanhamento acadêmico</h3><p>Notas e progresso na plataforma.</p></a>
+      <a class="card plat reveal" href="https://seductec.seduc.pi.gov.br/calendar/view.php?view=month" target="_blank" rel="noopener"><span class="ico">04</span><h3>Calendário</h3><p>Prazos e eventos.</p></a>
+      <a class="card plat reveal" href="https://seductec.seduc.pi.gov.br/" target="_blank" rel="noopener"><span class="ico">05</span><h3>Perfil e preferências</h3><p>Seus dados e configurações.</p></a>
+    </div>
+    <p class="note">Login e dados pessoais são tratados somente na plataforma oficial; este portal não coleta credenciais nem exibe notas.</p>
+  </div>
+</section>
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="footer" id="contato">
+  <div class="wrap fgrid">
+    <div>
+      <h3>Entre em contato</h3>
+      <p><strong>SEDUCTEC</strong> — Educação profissional e tecnológica da SEDUC Piauí.</p>
+      <a class="btn btn-ghost btn-sm" href="https://seduc.pi.gov.br/" target="_blank" rel="noopener">Portal da SEDUC Piauí ↗</a>
+    </div>
+    <div>
+      <h3>Suporte</h3>
+      <p>Precisa de ajuda com a plataforma?</p>
+      <a class="btn btn-sm" href="https://seductec.seduc.pi.gov.br/user/contactsitesupport.php" target="_blank" rel="noopener">Contate o suporte do site</a>
+    </div>
+    <div>
+      <h3>Aplicativo móvel</h3>
+      <p>Acesse seu ambiente de aprendizagem também pelo celular.</p>
+      <div class="stores">
+        <a class="btn btn-ghost btn-sm" href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" target="_blank" rel="noopener">Google Play</a>
+        <a class="btn btn-ghost btn-sm" href="https://apps.apple.com/app/id633359593" target="_blank" rel="noopener"> App Store</a>
+      </div>
+      <a class="link" href="https://download.moodle.org/mobile" target="_blank" rel="noopener">Site oficial do aplicativo Moodle</a>
+    </div>
+  </div>
+  <div class="wrap credits">
+    <p>Plataforma original baseada em <a href="https://moodle.org" target="_blank" rel="noopener">Moodle™</a> · Tema Conecti.me. Marcas pertencem aos respectivos titulares.</p>
+    <p><strong>SEDUCTEC — Educação, Tecnologia e Inovação.</strong></p>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Voltar ao topo">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
